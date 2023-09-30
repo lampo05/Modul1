@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Data Mahasiswa</title>
+  </head>
+  <body>
+    <h1>Data Mahasiswa</h1>
+    <form id="mahasiswa-form">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required /><br />
+
+      <label for="nim">NIM:</label>
+      <input type="number" id="nim" name="nim" required /><br />
+
+      <label for="tanggal">Tanggal:</label>
+      <input type="date" id="tanggal" name="tanggal" required /><br />
+
+      <label for="alamat">Alamat:</label><br />
+      <textarea id="alamat" name="alamat" cols="21" rows="5" required></textarea
+      ><br />
+
+      <button type="submit">Simpan</button>
+    </form>
+
+    <h2>Data Mahasiswa</h2>
+    <table id="mahasiswa-table">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>NIM</th>
+          <th>Alamat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data mahasiswa akan ditampilkan di sini secara manual -->
+        <tr>
+          <td>1</td>
+          <td>Muhammad Andika Saputra</td>
+          <td>202110370311184</td>
+          <td>jalan dia</td>
+        </tr>
+        <!-- Data lainnya juga dapat ditambahkan secara manual -->
+      </tbody>
+      <tbody>
+        <tr>
+          <td>2</td>
+          <td>Bima</td>
+          <td>202110370311195</td>
+          <td>jl. sengkaling baru</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
